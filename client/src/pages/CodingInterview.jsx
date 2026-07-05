@@ -24,7 +24,7 @@ const CodingInterview = () => {
       setOutput("Running...");
 
       const response = await axios.post(
-        "http://localhost:5000/api/code/run",
+        "https://ai-coding-interview-assistant-1.onrender.com/api/code/run",
         {
           code,
           language,
@@ -55,7 +55,7 @@ const CodingInterview = () => {
 
       const response =
         await axios.post(
-          "http://localhost:5000/api/review",
+          "https://ai-coding-interview-assistant-1.onrender.com/api/review",
           {
             code,
             language,
@@ -86,7 +86,7 @@ const CodingInterview = () => {
       setOutput("Generating AI Hint...");
 
       const response = await axios.post(
-        "http://localhost:5000/api/ai/hint",
+        "https://ai-coding-interview-assistant-1.onrender.com/api/ai/hint",
         {
           problem: `
           Given an array of integers nums and a target,
