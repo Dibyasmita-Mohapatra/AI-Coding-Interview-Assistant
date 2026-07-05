@@ -30,7 +30,7 @@ const Dashboard = () => {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/interview/stats"
+        "https://ai-coding-interview-assistant-1.onrender.com/api/interview/stats"
       );
 
       setStats(response.data);
@@ -48,7 +48,7 @@ const Dashboard = () => {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/interview/recent"
+        "https://ai-coding-interview-assistant-1.onrender.com/api/interview/recent"
       );
 
       setRecent(response.data);
