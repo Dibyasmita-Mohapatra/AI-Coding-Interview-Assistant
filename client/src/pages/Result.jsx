@@ -8,7 +8,7 @@ const Result = () => {
 
       const response =
         await axios.post(
-          "http://localhost:5000/api/report/generate",
+          "https://ai-coding-interview-assistant-1.onrender.com/api/report/generate",
           {
             type: "Coding Interview",
             score: 92,
