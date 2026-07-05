@@ -32,7 +32,7 @@ const AIChat = () => {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/api/ai/chat",
+        "https://ai-coding-interview-assistant-1.onrender.com/api/ai/chat",
         {
           question,
         }
