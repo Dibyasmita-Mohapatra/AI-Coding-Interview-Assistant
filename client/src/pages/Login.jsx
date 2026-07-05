@@ -25,7 +25,7 @@ const Login = () => {
     try {
 
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://ai-coding-interview-assistant-1.onrender.com/api/auth/login",
         formData
       );
 
