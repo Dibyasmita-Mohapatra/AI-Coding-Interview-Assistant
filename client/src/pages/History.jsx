@@ -14,7 +14,7 @@ const History = () => {
     try {
 
       const res = await axios.get(
-        "http://localhost:5000/api/interview/all"
+        "https://ai-coding-interview-assistant-1.onrender.com/api/interview/all"
       );
 
       setInterviews(res.data);
