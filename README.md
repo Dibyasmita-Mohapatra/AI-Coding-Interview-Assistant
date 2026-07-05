@@ -279,13 +279,13 @@ Add Screenshot Here
 Frontend
 
 ```
-https://your-vercel-link.vercel.app
+ai-coding-interview-assistant-boos.vercel.app
 ```
 
 Backend API
 
 ```
-https://your-render-link.onrender.com
+https://ai-coding-interview-assistant-1.onrender.com
 ```
 
 ---
