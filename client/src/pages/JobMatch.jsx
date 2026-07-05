@@ -56,7 +56,7 @@ const JobMatch = () => {
 
       const response =
         await axios.post(
-          "http://localhost:5000/api/job-match/match",
+          "https://ai-coding-interview-assistant-1.onrender.com/api/job-match/match",
           {
             resumeText,
             jobDescription,
