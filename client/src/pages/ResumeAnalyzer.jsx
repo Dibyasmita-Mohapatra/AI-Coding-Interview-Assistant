@@ -23,7 +23,7 @@ const ResumeAnalyzer = () => {
       formData.append("resume", file);
 
       const response = await axios.post(
-        "http://localhost:5000/api/resume/analyze",
+        "https://ai-coding-interview-assistant-1.onrender.com/api/resume/analyze",
         formData,
         {
           headers: {
