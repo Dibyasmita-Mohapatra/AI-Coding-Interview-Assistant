@@ -26,7 +26,7 @@ const HRInterview = () => {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/api/ai/hr-question",
+        "https://ai-coding-interview-assistant-1.onrender.com/api/ai/hr-question",
         {
           company,
           difficulty,
@@ -91,7 +91,7 @@ const HRInterview = () => {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/api/ai/hr-feedback",
+        "https://ai-coding-interview-assistant-1.onrender.com/api/ai/hr-feedback",
         {
           question,
           answer,
